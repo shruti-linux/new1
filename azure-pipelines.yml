@@ -17,7 +17,7 @@ steps:
     backendAzureRmStorageAccountName: 'dimna1234'
     backendAzureRmContainerName: 'dimna-cont'
     backendAzureRmKey: 'dimnapipeline.tf'
-steps:
+
 - task: TerraformTaskV4@4
   inputs:
     provider: 'azurerm'
